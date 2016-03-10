@@ -1,0 +1,16 @@
+#!/bin/sh
+
+exec docker run \
+        --cap-drop=ALL \
+	--hostname demo.binjit.su \
+        --rm \
+        --interactive \
+        --tty \
+       --workdir=/home/zerocool \
+        --user=zerocool \
+        demo \
+        tmux -2 new-session /home/zerocool/start
+
+
+# /bin/bash -c "export HOME=/home/zerocool; cd \$HOME; clear; exec tmux -2 new-session 'tmux split-window -v \"ipython -i intro.py\"; exec /bin/bash'"
+

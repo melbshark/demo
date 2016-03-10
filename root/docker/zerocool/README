@@ -1,0 +1,31 @@
+______ _       _ _ _              ______ _                                             _ 
+| ___ (_)     (_|_) |             | ___ \ |                                           | |
+| |_/ /_ _ __  _ _| |_ ___ _   _  | |_/ / | __ _ _   _  __ _ _ __ ___  _   _ _ __   __| |
+| ___ \ | '_ \| | | __/ __| | | | |  __/| |/ _` | | | |/ _` | '__/ _ \| | | | '_ \ / _` |
+| |_/ / | | | | | | |_\__ \ |_| | | |   | | (_| | |_| | (_| | | | (_) | |_| | | | | (_| |
+\____/|_|_| |_| |_|\__|___/\__,_| \_|   |_|\__,_|\__, |\__, |_|  \___/ \__,_|_| |_|\__,_|
+             _/ |                                 __/ | __/ |                            
+            |__/                                 |___/ |___/                             
+
+This VM is already set up with Binjitsu, and ready for you to play around with.
+
+- This VM will self-destruct in 30 minutes.
+- Be nice.  Everybody shares 1 CPU and 512MB of RAM.
+- Don't be evil.
+
+This is running in tmux, which misbehaves a bit in the browser.  
+The meta key is Ctrl+B.
+
+- New window: Meta-"c"
+- Vertical split: Meta-"|"
+- Horizontal split: Meta-"-"
+- Next pane: Meta-"n"
+
+The Python REPL is actually ipython.  This means that you can do tab-completion to
+look up properties on an object and get help automatically.
+
+For example, try "r.<tab>" or "r?<enter>" or "r.recvline?<enter>".
+
+Have fun! -ebeip90
+
+
