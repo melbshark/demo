@@ -16,6 +16,7 @@ git init
 git remote origin add git://github.com/binjitsu/demo.git
 git fetch --all
 git checkout --force -t origin/master
-root/setup.sh
+cd /root
+./setup.sh
 ```
 
