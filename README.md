@@ -1,6 +1,6 @@
 # demo.binjit.su
 
-Pwning in the browser!
+Pwning in the browser! [Try it here!](http://demo.binjit.su)
 
 This is just a mixture of Docker and Butterfly.py which lets people use Binjitsu in their browser.
 
