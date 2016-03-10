@@ -8,6 +8,8 @@ It's probably crazy insecure and should only be run on a VM/Cloud VPS you don't 
 
 ## Setup
 
+This is untested, but it's the general idea.
+
 ```sh
 cd /
 git init
